@@ -15,11 +15,11 @@ function ProgramSection() {
                 </div>
                 <div className={styles.programa__listItem}>
                     <h3><FaThumbtack /> Módulo 2 - O que é Liderança?</h3>
-                    <p>"É fazer acontecer o que tem que acontecer em tempo hábil, e de forma correta, através de outras pessoas apaixonadas por aquilo que fazem."</p>
+                    <p>&ldquo;É fazer acontecer o que tem que acontecer em tempo hábil, e de forma correta, através de outras pessoas apaixonadas por aquilo que fazem.&rdquo;</p>
                 </div>
                 <div className={styles.programa__listItem}>
                     <h3><FaThumbtack /> Módulo 3 - Inteligência Emocional Aplicada à Liderança</h3>
-                    <p>"Ao desenvolver a nossa inteligência emocional nos tornamos aptos a liderar uma equipe de sucesso."</p>
+                    <p>&ldquo;Ao desenvolver a nossa inteligência emocional nos tornamos aptos a liderar uma equipe de sucesso.&rdquo;</p>
                 </div>
                 <div className={styles.programa__listItem}>
                     <h3><FaThumbtack /> Módulo 4 - Liderança Avançada</h3>

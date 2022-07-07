@@ -16,19 +16,19 @@ function FormSection() {
         <div className={styles.form__colTwo}>
             <form>
                 <div>
-                    <label for="Name">Seu Nome</label>
+                    <label htmlFor="Name">Seu Nome</label>
                     <input id="Name" required/>
                 </div>
                 <div>
-                    <label for="Email">E-mail corporativo</label>
+                    <label htmlFor="Email">E-mail corporativo</label>
                     <input id="Email" required/>
                 </div>
                 <div>
-                    <label for="Phone">Telefone</label>
+                    <label htmlFor="Phone">Telefone</label>
                     <input id="Phone" required/>
                 </div>
                 <div>
-                    <label for="Company">Nome da Empresa</label>
+                    <label htmlFor="Company">Nome da Empresa</label>
                     <input id="Company" required/>
                 </div>
                 <div className={styles.form__colTwo__checkbox}>
