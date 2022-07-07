@@ -16,7 +16,7 @@ function Header() {
         <div className={styles.header__container}>
             <Link href="/">
                 <a>
-                    <Image src={logoHeader} width={100} height={43}/>
+                    <Image alt="Logo" src={logoHeader} width={100} height={43}/>
                 </a>
             </Link>
             <div  className={`header__hamb ${open ? "open" : ""}`} onClick={openHamburger}>

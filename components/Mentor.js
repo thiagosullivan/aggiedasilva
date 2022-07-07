@@ -33,7 +33,7 @@ function Mentor() {
                     </Link>
                 </div>
             </div>
-            <Image src={Aggie}/>
+            <Image alt="Aggie DaSilva" src={Aggie}/>
         </div>
         
     </div>

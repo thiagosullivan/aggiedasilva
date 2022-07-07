@@ -63,7 +63,7 @@ function PoliticasPrivacidade() {
             <p>O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o L&amp;SA.COM.BR oferece no site e com caráter enunciativo, mas não limitativo:</p>
             <ol>
                 <li>Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</li>
-                <li>Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou <a href="https://salmao.pt/">salmao</a>, casas de apostas (ex.: Betano), jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</li>
+                <li>Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou <a href="https://salmao.pt/" rel="noopener noreferrer">salmao</a>, casas de apostas (ex.: Betano), jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</li>
                 <li>Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do L&amp;SA.COM.BR, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</li>
             </ol>
             <h3>Mais informações</h3>
