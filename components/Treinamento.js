@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 
 function Treinamento() {
   return (
-    <div className={styles.treinamentoContainer}>
+    <div className={styles.treinamentoContainer} id="treinamento">
         <div className={styles.treinamentoContent}>
             <span className={styles.secTwo__border}></span>
             <h2>Por que fazer nosso treinamento?</h2>

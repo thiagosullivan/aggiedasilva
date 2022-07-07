@@ -24,28 +24,28 @@ function Header() {
             </div>
             <nav>
                 <ul className={ open ? "menu__open" : ""}>
-                    <li>
-                        <Link href="/">
+                    <li onClick={openHamburger}>
+                        <Link href="/#treinamento">
                             <a>Treinamento</a>
                         </Link>
                     </li>
-                    <li>
-                        <Link href="/">
+                    <li onClick={openHamburger}>
+                        <Link href="/#programacao">
                             <a>Programação</a>
                         </Link>
                     </li>
-                    <li>
-                        <Link href="/">
+                    <li onClick={openHamburger}>
+                        <Link href="/#mentor">
                             <a>O Mentor</a>
                         </Link>
                     </li>
-                    <li>
-                        <Link href="/">
+                    <li onClick={openHamburger}>
+                        <Link href="/#parceiros">
                             <a>Parceiros</a>
                         </Link>
                     </li>
-                    <li>
-                        <Link href="/">
+                    <li onClick={openHamburger}>
+                        <Link href="/#contato">
                             <a>Contato</a>
                         </Link>
                     </li>

@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 function ProgramSection() {
   return (
-    <section className={styles.programa__section}>
+    <section className={styles.programa__section} id="programacao">
         <div className={styles.programa__line}></div>
         <div className={styles.programa__colOne}>
             <h2>Conteúdo do programa</h2>

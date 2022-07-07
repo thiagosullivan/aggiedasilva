@@ -15,7 +15,7 @@ import styles from '../styles/Home.module.css';
 
 function Parceiros() {
   return (
-    <div className={styles.parceiros__section}>
+    <div className={styles.parceiros__section} id="parceiros">
       <div className={styles.parceiros__content}>
         <h2>Será um prazer ter você conosco</h2>
         <p>Alguns dos nossos parceiros</p>

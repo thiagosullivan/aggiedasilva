@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css';
 
 function Mentor() {
   return (
-    <div className={styles.mentor__section}>
+    <div className={styles.mentor__section} id="mentor">
         <div className={styles.mentor__title}>
             <h2>Aggie DaSilva</h2>
             <p>O mentor</p>

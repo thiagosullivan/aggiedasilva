@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 
 function FormSection() {
   return (
-    <section className={styles.form__section}>
+    <section className={styles.form__section} id="contato">
         <div className={styles.form__colOne}>
             <h1>Curso de liderança e vendas</h1>
             <p>Conheça a formação que faz sucesso nos Estados Unidos e agora no Brasil.</p>
