@@ -1,15 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Depoimento from '../components/Depoimento'
-import Footer from '../components/Footer'
-import FormSection from '../components/FormSection'
-import Header from '../components/Header'
-import Mentor from '../components/Mentor'
-import Parceiros from '../components/Parceiros'
-import ProgramSection from '../components/Programacao'
-import Treinamento from '../components/Treinamento'
-import Whatsapp from '../components/Whatsapp'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Depoimento from '../components/Depoimento';
+import Footer from '../components/Footer';
+import FormSection from '../components/FormSection';
+import Header from '../components/Header';
+import Mentor from '../components/Mentor';
+import Parceiros from '../components/Parceiros';
+import ProgramSection from '../components/Programacao';
+import Treinamento from '../components/Treinamento';
+import Whatsapp from '../components/Whatsapp';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
