@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "googleapis": "^105.0.0",
     "next": "12.2.0",
+    "nodemailer": "^6.7.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.2.0",
     "react-icons": "^4.4.0",
+    "react-input-mask": "^2.0.4",
     "react-youtube-lite": "^2.0.0"
   },
   "devDependencies": {
