@@ -289,6 +289,7 @@
 /* Depoimento */
 .depoimento__section {
   background-color: #3c403e;
+  padding-bottom: 2rem;
 }
 .depoimento__title {
   display: flex;
@@ -312,6 +313,11 @@
   box-shadow: 0 5px 10px rgb(0 0 0 / 40%);
   width: 100%;
   height: 20px;
+}
+.depoimento__video {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 @media (max-width: 980px) {
