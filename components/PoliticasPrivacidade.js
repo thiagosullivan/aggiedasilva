@@ -4,8 +4,8 @@ import styles from '../styles/Politicas.module.css';
 function PoliticasPrivacidade() {
   return (
     <div className={styles.politicas__Container}>
-        <h1 class="entry-title main_title">Política de Privacidade</h1>
-        <div class="entry-content">
+        <h1 className="entry-title main_title">Política de Privacidade</h1>
+        <div className="entry-content">
             <p>A sua privacidade é importante para nós. É política do L&amp;SA.COM.BR respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href="https://www.lsausa.com.br">L&amp;SA.COM.BR</a>, e outros sites que possuímos e operamos.</p>
             <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</p>
             <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis &ZeroWidthSpace;&ZeroWidthSpace;para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>

@@ -23,63 +23,63 @@ function Parceiros() {
           <div>
             <Link href="https://www2.hm.com/en_us/index.html" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Hm}/>
+                <Image alt="HM" src={Hm}/>
               </a>
             </Link>
           </div>
           <div>
             <Link href="https://www.ledvance.com.br/" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Ledvance}/>
+                <Image alt="Ledvance" src={Ledvance}/>
               </a>
             </Link>
           </div>
           <div>
             <Link href="https://lojavirtual.lumini.com.br/" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Lumini}/>
+                <Image alt="Lumini" src={Lumini}/>
               </a>
             </Link>
           </div>
           <div>
             <Link href="https://www.neoris.com/" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Neoris}/>
+                <Image alt="Neoris" src={Neoris}/>
               </a>
             </Link>
           </div>
           <div>
             <Link href="https://www.niquanenergy.com/" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Niquan}/>
+                <Image alt="Niquan Energy" src={Niquan}/>
               </a>
             </Link>
           </div>
           <div>
             <Link href="https://www.panam.org/" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Panam}/>
+                <Image alt="Panam" src={Panam}/>
               </a>
             </Link>
           </div>
           <div>
             <Link href="https://www.sap.com/brazil/index.html" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Sap}/>
+                <Image alt="SAP" src={Sap}/>
               </a>
             </Link>
           </div>
           <div>
             <Link href="https://www.sony.com.br" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Sony}/>
+                <Image alt="Sony" src={Sony}/>
               </a>
             </Link>
           </div>
           <div>
             <Link href="https://vbmc.com.br/" passHref>
               <a target="_blank" rel="noopener noreferrer">
-                <Image src={Vbmc}/>
+                <Image alt="VBMC" src={Vbmc}/>
               </a>
             </Link>
           </div>
