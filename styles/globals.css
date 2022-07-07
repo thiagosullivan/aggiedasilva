@@ -44,7 +44,7 @@ main {
 .header__hamb__btn {
   width: 30px;
   height: 3px;
-  background-color: #ffffff;
+  background-color: #dd5c56;
   transition: all .5s ease-in-out;
 }
 .header__hamb__btn::before,
@@ -53,7 +53,7 @@ main {
   position: absolute;
   width: 30px;
   height: 3px;
-  background-color: #ffffff;
+  background-color: #dd5c56;
   transition: all .5s ease-in-out;
 }
 .header__hamb__btn::before {
