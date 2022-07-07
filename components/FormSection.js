@@ -8,9 +8,9 @@ function FormSection() {
             <h1>Curso de liderança e vendas</h1>
             <p>Conheça a formação que faz sucesso nos Estados Unidos e agora no Brasil.</p>
             <ul>
-                <li><span>//</span> Forme líderes em vez de gestores e mude o perfil da sua empresa.</li>
-                <li><span>//</span> Desenvolva nos seus gestores suas habilidades de liderança.</li>
-                <li><span>//</span> Trabalhe neles sua inteligência emocional para serem grandes líderes</li>
+                <li><span>&#47;&#47;</span> Forme líderes em vez de gestores e mude o perfil da sua empresa.</li>
+                <li><span>&#47;&#47;</span> Desenvolva nos seus gestores suas habilidades de liderança.</li>
+                <li><span>&#47;&#47;</span> Trabalhe neles sua inteligência emocional para serem grandes líderes</li>
             </ul>
         </div>
         <div className={styles.form__colTwo}>
