@@ -23,7 +23,7 @@ function Header() {
                 <div className="header__hamb__btn"></div>
             </div>
             <nav>
-                <ul>
+                <ul className={ open ? "menu__open" : ""}>
                     <li>
                         <Link href="/">
                             <a>Treinamento</a>

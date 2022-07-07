@@ -7,7 +7,7 @@ function ProgramSection() {
     <section className={styles.programa__section}>
         <div className={styles.programa__line}></div>
         <div className={styles.programa__colOne}>
-            <h1>Conteúdo do programa</h1>
+            <h2>Conteúdo do programa</h2>
             <div className={styles.programa__list}>
                 <div className={styles.programa__listItem}>
                     <h3><FaThumbtack /> Módulo 1 - Autoconhecimento</h3>
