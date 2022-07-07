@@ -14,7 +14,7 @@ function Footer() {
                 <a>Aggie DaSilva</a>
             </Link>
             <span>|</span>
-            <Link href="/">
+            <Link href="/#contato">
                 <a>Contato</a>
             </Link>
         </div>
