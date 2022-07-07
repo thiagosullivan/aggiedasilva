@@ -1,0 +1,28 @@
+.main {
+    padding: 6rem 1rem 1rem;
+}
+.politicas__Container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: justify;
+    font-family: 'Mulish', sans-serif;
+}
+
+.politicas__Container h1,
+.politicas__Container h2,
+.politicas__Container h3,
+.politicas__Container h4 {
+    color: #222222;
+    margin-top: 1rem;
+}
+.politicas__Container h1,
+.politicas__Container h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.politicas__Container a {
+    color: #2ea3f2;
+}
