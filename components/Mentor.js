@@ -16,18 +16,18 @@ function Mentor() {
             <div className={styles.mentor__colOne}>
                 <p>CEO da L&SA, certificou-se em Coaching de Liderança em Harvard, e em psicométricos pela Thomas na Inglaterra. Foi ele quem trouxe o conceito DISC para o Brasil, em 1993. Liderou equipes de sucesso durante 25 anos nos EUA, e em 10 países da América Latina.</p>
                 <div className={styles.mentor__socialMedia}>
-                    <Link href="/">
-                        <a>
+                    <Link href="https://www.facebook.com/dasilvaaggie/" passHref>
+                        <a target="_blank" rel="noopener noreferrer">
                             <FaFacebookF />
                         </a>
                     </Link>
-                    <Link href="/">
-                        <a>
+                    <Link href="https://www.linkedin.com/in/aggiedasilva/" passHref>
+                        <a target="_blank" rel="noopener noreferrer">
                             <FaLinkedinIn />
                         </a>
                     </Link>
-                    <Link href="/">
-                        <a>
+                    <Link href="https://www.instagram.com/lsacademyusa" passHref>
+                        <a target="_blank" rel="noopener noreferrer">
                             <FaInstagram />
                         </a>
                     </Link>

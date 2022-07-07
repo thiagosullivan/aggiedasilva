@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logoHeader from '../assets/lsausa-white-logo.png';
 import styles from '../styles/Home.module.css';
 
 function Header() {
+
+    const [open, setOpen] = useState(false);
+    function openHamburger(){
+        setOpen(!open)
+    }
+
   return (
     <header className={styles.header}>
         <div className={styles.header__container}>
@@ -13,6 +19,9 @@ function Header() {
                     <Image src={logoHeader} width={100} height={43}/>
                 </a>
             </Link>
+            <div  className={`header__hamb ${open ? "open" : ""}`} onClick={openHamburger}>
+                <div className="header__hamb__btn"></div>
+            </div>
             <nav>
                 <ul>
                     <li>

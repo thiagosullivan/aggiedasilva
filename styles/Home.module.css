@@ -1,20 +1,3 @@
-.container {
-  /* padding: 0 2rem; */
-}
-
-.main {
-
-}
-
-.footer {
-  
-  
-}
-
-.footer a {
-
-}
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -35,11 +18,9 @@
   align-items: center;
   justify-content: space-between
 }
-
 .header__container ul {
   display: flex;
 }
-
 .header__container li a {
   color: #dd5c56;
   font-size: 14px;
@@ -63,7 +44,6 @@
   width: 100%;
   font-family: 'Mulish', sans-serif;
 }
-
 .form__colOne h1 {
   font-family: 'Mulish', sans-serif;
   font-size: 51px;
@@ -72,69 +52,56 @@
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-
 .form__colOne p {
   font-size: 1.37rem;
 }
-
 .form__colOne ul li {
   color: #666666;
   margin-bottom: 1rem;
 }
-
 .form__colOne ul li span {
   font-weight: bold;
   color: #6A1616;
 }
-
 .form__colTwo {
   font-family: 'Mulish', sans-serif;
   border-radius: 10px;
   box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
 }
-
 .form__colTwo form {
   padding: 2rem 1rem;
   max-width: 575px;
   width: 100%;
 }
-
 .form__colTwo div {
   display: flex;
   flex-direction: column;
 }
-
 .form__colTwo__checkbox {
   display: flex;
   flex-direction: row !important;
 }
-
 .form__colTwo__checkbox input {
   margin-right: .5rem;
 }
-
 .form__colTwo__checkbox input:focus {
   outline: none !important;
 }
-
 .form__colTwo label {
   color: #666666;
   margin-bottom: .25rem;
   font-size: 0.9rem;
   line-height: 1.5;
 }
-
 .form__colTwo input {
   border-radius: 5px;
   border: 1px solid #666666;
   padding: 10px;
   margin-bottom: 1rem;
 }
-
 .form__colTwo input:focus {
   outline: 1px solid rgba(102, 102, 102, 0.5);
 }
-
 .form__colTwo button {
   background-color: #6A1616;
   border: none;
@@ -150,14 +117,12 @@
   padding: 7rem 1rem;
   background-image: url("../assets/bg-1-lsa-min.jpg");
 }
-
 .treinamentoContent {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
   font-family: 'Mulish',sans-serif;
 }
-
 .secTwo__border {
   display: block;
   width: 100%;
@@ -165,8 +130,7 @@
   background-color: #6A1616;
   margin-bottom: 3rem;
   box-shadow: 0 5px 10px rgb(0 0 0 / 40%);
-} 
-
+}
 .treinamentoContent h2 {
   color: #6A1616;
   text-transform: uppercase;
@@ -174,7 +138,6 @@
   font-weight: 300;
   padding: .8rem 4rem;
 }
-
 .treinamentoContent p {
   text-align: justify;
   padding: .8rem 4rem;
@@ -187,7 +150,6 @@
   background-image: url("../assets/bg-3-lsa-min.jpg");
   padding-bottom: 4rem;
 }
-
 .programa__line {
   background-image: url("../assets/lines.svg");
   background-size: 100% 20px;
@@ -195,7 +157,6 @@
   height: 20px;
   transform: rotateX(180deg)
 }
-
 .programa__colOne h1 {
   font-family: 'Mulish',sans-serif;
   font-weight: 300;
@@ -205,30 +166,25 @@
   text-align: center;
   padding: 4rem 0;
 }
-
 .programa__list {
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
   font-family: 'Mulish',sans-serif;
 }
-
 .programa__listItem h3 {
   color: #6A1616;
   font-weight: 300;
   font-size: 22px;
   display: flex;
 }
-
 .programa__listItem svg {
   font-size: 2rem;
   margin-right: .5rem;
 }
-
 .programa__listItem p {
   font-size: 15px;
 }
-
 .programa__listItem {
   margin-bottom: 4rem;
 }
@@ -237,7 +193,6 @@
 .depoimento__section {
   background-color: #3c403e;
 }
-
 .depoimento__title {
   display: flex;
   align-items: center;
@@ -246,7 +201,6 @@
   margin: 0 auto;
   padding: 3rem 1rem;
 }
-
 .depoimento__title h2 {
   color: #FFDC58;
   font-size: 55px;
@@ -255,7 +209,6 @@
   text-transform: uppercase;
   margin-right: 2rem;
 }
-
 .depoimento__title span {
   display: block;
   background-color: #FFDC58;
@@ -322,4 +275,80 @@
 .mentor__socialMedia svg {
   font-size: 2rem;
   color: #ffffff;
+}
+
+/* Parceiros */
+.parceiros__section {
+  background-color: #ffe894;
+  padding: 4rem 1rem;
+}
+.parceiros__content {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Mulish',sans-serif;
+}
+.parceiros__content h2 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #6A1616;
+  text-transform: uppercase;
+  text-align: center;
+}
+.parceiros__content p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.parceiros__images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem 15rem;
+  margin-top: 5rem;
+}
+.parceiros__images img {
+  filter: grayscale(100%);
+  transition: all 100ms ease-in;
+}
+.parceiros__images img:hover {
+  filter: grayscale(0%);
+}
+.parceiros__images div {
+  max-width: 200px;
+  width: 100%;
+}
+
+/* Footer */
+.footerOne {
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  color: #e6e6e6;
+  background-color: #313131;
+  padding: .5rem;
+  text-align: center;
+}
+.footerOne span {
+  margin: 0 1rem;
+}
+.footerTwo {
+  background-color: #222222;
+  padding: .7rem;
+  color: #ffffff;
+  text-align: center;
+}
+.footerTwo p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Whatsapp */
+.whatsapp {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  transition: all 100ms ease-in;
+}
+.whatsapp:hover {
+  transform: scale(1.1);
 }
