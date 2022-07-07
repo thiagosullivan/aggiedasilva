@@ -9,7 +9,7 @@ function Whatsapp() {
     <div className={styles.whatsapp}>
         <Link href="/" passHref>
             <a target="_blank" rel="noopener noreferrer">
-                <Image src={WhatsappLogo}/>
+                <Image alt="Whatsapp" src={WhatsappLogo}/>
             </a>
         </Link>
     </div>
